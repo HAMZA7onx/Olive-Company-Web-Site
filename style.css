@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition:  all .5s;
+}
+
+/* Global properties: */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flexDirection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.olive-logo {
+    width: 60px;
+    cursor: pointer;
+}
+
+/* header part: */
+.header {
+    position: relative;
+}
+
+.header1, 
+.header2 {
+    height: 100vh;
+}
+
+.header1 {
+    background-image: linear-gradient(to left, #00000000, #000000c9);
+    padding: 40px;
+}
+
+.header2 {
+    background-image: url("img/olive_background.jpg");
+    background-size: cover;
+    position: absolute; 
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    filter: blur(4px);
+}
+
+.nav-list {
+    list-style: none;
+    gap: 20px;
+}
+
+nav {
+    justify-content: space-between;
+}
+ 
+.nav-media {
+    background-color: #fff;
+    padding:10px  20px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.media-icon {
+    font-size: 20px ;
+    cursor: pointer;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 4px;
+    transform: all 0s ;
+}
+
+.link:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.main {
+    align-items: center;
+    margin: 60px;
+    gap: 40px;
+    padding: 40px;
+    color: #fff;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.32);
+}
+
+.title1 {
+    font-size: 40px;
+}
+
+.title2 {
+    font-size:80px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.twoBoxes {
+    gap: 20px;
+}
+
+.twoBoxes p {
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.twoBoxes p:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.down-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*  */
