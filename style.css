@@ -12,7 +12,7 @@
 }
 
 html {
-    scroll-behavior: smooth; /* Enable smooth scrolling for the entire page */
+    scroll-behavior: smooth; Enable smooth scrolling for the entire page
 }
 
 /* Global properties: */
@@ -224,7 +224,6 @@ nav {
 }
 
 .box {
-    background-color: gray;
     transition: all 0.5s;
 }
 
@@ -283,3 +282,4 @@ nav {
     margin-top: 40px;
     font-size: 30px;
 }
+
