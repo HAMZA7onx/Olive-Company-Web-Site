@@ -67,4 +67,7 @@ hr {
     color: rgb(113, 220, 113);
 }
 
-
+.flexH {
+    justify-content: center;
+    text-align: center;
+}
