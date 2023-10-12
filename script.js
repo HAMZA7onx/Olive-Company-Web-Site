@@ -2,7 +2,7 @@
 
 let slides = document.querySelectorAll(".horbox");
 let left = document.querySelector(".left");
-let rigth = document.querySelector(".rigth");
+let rigth = document.querySelector(".right");
 
 let i = 1;
 rigth.addEventListener("click", function() {

@@ -12,7 +12,7 @@
 }
 
 html {
-    scroll-behavior: smooth; Enable smooth scrolling for the entire page
+    scroll-behavior: smooth; 
 }
 
 /* Global properties: */
@@ -147,6 +147,7 @@ nav {
 /* olivier section start */
 .olivier {
     padding: 80px 80px;
+    padding-bottom: 0;
     gap: 40px;
     background-color: #00cc00;
     background-image: linear-gradient(to left, rgba(0, 204, 0, 0.635), #000000bf);
